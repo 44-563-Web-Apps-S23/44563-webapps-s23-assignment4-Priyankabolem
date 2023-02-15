@@ -43,7 +43,7 @@
 .td{
     border: 2px solid rgb(160, 177, 92);
     height: 30px;
-    vertical-align: bottom;s
+    vertical-align: bottom;
     padding: 15px;
     border-bottom: 2px solid rgb(133, 92, 177);
 }
@@ -53,3 +53,44 @@ tr:nth-child(even){
 tr:nth-child(odd) {
     background-color: rgb(250, 215, 215);
 }
+.REVENUE:hover{
+    width:100px;
+    height: 50px;
+    box-shadow:10px 10px 5px #162cc0;
+    font-size: 15px;
+    padding: 3px;
+
+
+}
+.LUKE:hover{
+    width:100px;
+    height: 50px;
+    box-shadow:10px 10px 5px #b4ca0b;
+    font-size: 15px;
+    padding: 3px;
+
+
+}
+
+      
+li a {
+    display: block;
+    color:  black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover{
+    background-color: aqua;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+
