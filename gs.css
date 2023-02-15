@@ -1,0 +1,55 @@
+.speech{
+    color: black ;
+    font-style: Serif;
+    font-size: 20px;
+}
+
+.direction{
+    color: #5da812;
+    background-color: #a51b8c;
+    font-style:oblique;
+    font-size: 40px;
+}
+
+.direction:hover{
+    background-color: rgb(69, 30, 160);
+    color: rgb(215, 27, 171);
+}
+.REVENUE{
+    font-style:italic;
+    background-color: #FFCCCB;
+}
+
+.LUKE{
+    font-style:Times;
+    background-color: #90EE90;
+
+}
+.table{
+    border: 2px solid rgb(79, 117, 205);
+    height: 30px;
+    vertical-align: bottom;
+    padding: 15px;
+    border-bottom: 6px solid  rgb(205, 79, 92);
+}
+.th{
+    height: 50px;
+    text-align: center;
+    border-top: 6px solid rgb(88, 61, 151);
+    border-bottom: 2px solid rgb(131, 151, 61);
+    border-left: 3px solid rgb(151, 61, 133);
+    border-right: 3px solid rgb(151, 98, 61);
+}
+.td{
+    border: 2px solid rgb(160, 177, 92);
+    height: 30px;
+    vertical-align: bottom;s
+    padding: 15px;
+    border-bottom: 2px solid rgb(133, 92, 177);
+}
+tr:nth-child(even){
+    background-color: rgb(121, 202, 176);
+}
+tr:nth-child(odd) {
+    background-color: rgb(250, 215, 215);
+}
